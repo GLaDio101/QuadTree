@@ -1,0 +1,12 @@
+﻿using strange.extensions.command.impl;
+%IMPORT%
+
+namespace %NAMESPACE%
+{
+    public class %NAME%Command : EventCommand
+    {
+        public override void Execute()
+        {
+        }
+    }
+}

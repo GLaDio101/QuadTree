@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7a12ec22dc1df594fb4afb579f9b57d0
+labels:
+- Exclude
+- game-services
+timeCreated: 1480933998
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

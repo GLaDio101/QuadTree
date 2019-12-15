@@ -1,0 +1,29 @@
+﻿#if UNITY_EDITOR
+using CodeStage.AntiCheat.Detectors;
+using UnityEditor;
+
+namespace Standard_Assets.Core.CodeStage.AntiCheatToolkit.Editor.Scripts.Editors
+{
+	[CustomEditor(typeof (SpeedHackDetector))]
+	internal class SpeedHackDetectorEditor : ActDetectorEditor
+	{
+		private SerializedProperty interval;
+		private SerializedProperty maxFalsePositives;
+		private SerializedProperty coolDown;
+
+		protected override void FindUniqueDetectorProperties()
+		{
+			interval = serializedObject.FindProperty("interval");
+			maxFalsePositives = serializedObject.FindProperty("maxFalsePositives");
+			coolDown = serializedObject.FindProperty("coolDown");
+		}
+
+		protected override void DrawUniqueDetectorProperties()
+		{
+			EditorGUILayout.PropertyField(interval);
+			EditorGUILayout.PropertyField(maxFalsePositives);
+			EditorGUILayout.PropertyField(coolDown);
+		}
+	}
+}
+#endif

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 719845cd414fc2a4d8a9794687b3ba8a
+labels:
+- Exclude
+- unity-editor-extensions
+timeCreated: 1467103303
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

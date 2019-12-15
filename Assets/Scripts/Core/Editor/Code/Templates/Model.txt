@@ -1,0 +1,9 @@
+﻿%IMPORT%
+
+namespace %NAMESPACE%
+{
+    public class %NAME%Model : I%NAME%Model
+    {
+    
+    }
+}

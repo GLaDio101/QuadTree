@@ -1,0 +1,16 @@
+﻿using JetBrains.Annotations;
+using strange.extensions.context.impl;
+%IMPORT%
+
+namespace %NAMESPACE%
+{
+    public class %NAME%Bootstrap : ContextView
+    {
+        [UsedImplicitly]
+        private void Awake()
+        {
+            //Instantiate the context, passing it this instance.
+            context = new %NAME%Context(this);
+        }
+    }
+}

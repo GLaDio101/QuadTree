@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: 2613ad626d854294e8beb55d7c422bf3
+labels:
+- Exclude
+- android
+- api
+- authentication
+- cache
+- cookie
+- events
+- eventsource
+- http
+- https
+- il2cpp
+- ios
+- metro
+- proxy
+- rest
+- samsung
+- server-sent
+- server-sentevents
+- signalr
+- smart
+- socket
+- socket.io
+- stream
+- tcp
+- tv
+- web
+- webrequest
+- websocket
+- websockets
+- wp8
+- wsa
+- www
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

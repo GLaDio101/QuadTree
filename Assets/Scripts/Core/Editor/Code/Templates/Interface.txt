@@ -1,0 +1,9 @@
+﻿%IMPORT%
+
+namespace %NAMESPACE%
+{
+    public interface %NAME%
+    {
+    
+    }
+}

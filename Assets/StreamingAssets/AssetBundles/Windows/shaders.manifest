@@ -1,0 +1,20 @@
+ManifestFileVersion: 0
+CRC: 499910855
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b3d6a6077fc49f05babe8d118ee8cdc1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7e9ee104d6bb707fb2602b751e6f78b1
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scripts/Shaders/Unlit-AlphaTest.shader
+- Assets/Scripts/Shaders/Unlit-Color.shader
+- Assets/Scripts/Shaders/Unlit-Alpha.shader
+- Assets/Scripts/Shaders/Unlit-Normal.shader
+- Assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader
+Dependencies: []

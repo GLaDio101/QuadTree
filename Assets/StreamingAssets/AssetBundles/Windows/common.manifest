@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1069041331
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c5cb4aac14ad2b694d5cd96387b5b192
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fe397485c3cec1106b49e9ff95e8f8a2
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Assets/Materials/TestMaterial 1.mat
+- Assets/Assets/Materials/TestMaterial.mat
+Dependencies:
+- E:/Projects/SoruSepeti/Assets/StreamingAssets/AssetBundles/Windows/shaders

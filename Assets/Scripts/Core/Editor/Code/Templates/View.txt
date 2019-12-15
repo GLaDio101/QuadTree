@@ -1,0 +1,10 @@
+﻿using strange.extensions.mediation.impl;
+%IMPORT%
+
+namespace %NAMESPACE%
+{
+    public class %NAME%View : EventView
+    {
+
+    }
+}

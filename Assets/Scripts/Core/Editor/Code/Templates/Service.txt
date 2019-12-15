@@ -1,0 +1,9 @@
+﻿%IMPORT%
+
+namespace %NAMESPACE%
+{
+    public class %NAME%Service : I%NAME%Service
+    {
+    
+    }
+}

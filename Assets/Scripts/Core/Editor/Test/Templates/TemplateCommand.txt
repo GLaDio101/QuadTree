@@ -1,0 +1,17 @@
+﻿#if UNITY_EDITOR
+using Assets.Scripts.Core.Manager.Screen;
+using strange.extensions.command.impl;
+
+namespace %TemplateNS%
+{
+    public class %Template%Command : EventCommand
+    {
+        public override void Execute()
+        {
+            dispatcher.Dispatch(ScreenEvent.OpenPanel, new PanelVo{Name = "LoadingScreen"});
+
+            //dispatcher.Dispatch(ScreenEvent.ChangeScreen, GameElement.%Name%Screen);
+        }
+    }
+}
+#endif
